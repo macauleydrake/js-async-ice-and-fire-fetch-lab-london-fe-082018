@@ -1,9 +1,9 @@
 function fetchBooks() {
-  fetch("string representing a URL to a data source")
+  fetch("https://anapioficeandfire.com/api/books")
   .then(response => response.json())
-  .then(json => ...)
-  //write fetch request to the Game of Thrones API
-}
+  .then(json => )
+  
+)}
 
 function renderBooks(json) {
   const main = document.querySelector('main')
