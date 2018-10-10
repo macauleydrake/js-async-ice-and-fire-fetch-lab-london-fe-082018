@@ -1,4 +1,7 @@
 function fetchBooks() {
+  fetch("string representing a URL to a data source")
+  .then(response => response.json())
+  .then(json => ...)
   //write fetch request to the Game of Thrones API
 }
 
